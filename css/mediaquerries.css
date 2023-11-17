@@ -1,0 +1,269 @@
+/* Common styles for all screen sizes */
+.box,
+.box1,
+.photo img {
+    max-width: 100%; 
+}
+
+
+
+/* Styles for small screens (phones) */
+
+@media only screen and (min-width: 0px) and  (max-width: 480px) {
+    .box,
+    .box1 {
+        width: 100%; 
+        max-width: 100%; 
+        margin-left: 0;
+        margin-top: 0; 
+        
+    }
+
+    .navbar-brand{
+      margin-left: -140px;
+    }
+
+    .photo img {
+        margin-left: 1px;
+        margin-top: 20px;
+        width: 200px;
+        
+    }
+
+    .carousel-caption p{
+      text-align: center;
+    }
+
+    .back,
+    .parag,
+    .text {
+        margin-left: -50px;
+        max-width: 300px;
+        font-size: 13px;
+    }
+    .text {
+        margin-left: 100px;
+      
+    }
+
+    .parag p{
+        margin-left: 250px;
+        margin-top: -40px;
+    }
+
+    .icon{
+        margin-left: 300px;
+        margin-top: -40px;
+    }
+
+    .bout h3 {
+        margin-left: 0;
+        margin-top: 0; 
+        
+    }
+
+    .text p {
+        margin-left: 0;
+    }
+
+    .solutions {
+        margin-top: -300px;
+    }
+
+   .solutions p{
+        font-size: 1.5rem;
+        margin-left: 0px;
+    }
+
+
+    .content {
+        margin-left: 0px; 
+    }
+
+
+    .content img{
+        max-width: 400px;
+    }
+
+    .bx {
+        margin-left: 0px; 
+    }
+  
+
+    .image-grid {
+        margin-right: 0; 
+    }
+
+    .try p {
+        margin-left: 0px; 
+        font-size: 1.2rem;
+        margin-top: 125px;
+    }
+
+
+    .image-grid {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+        
+    }
+
+    .backs{
+        margin-bottom: 850px;
+        height: 1600px;
+    }
+    .join {
+        height: auto; 
+        margin-top: -850px;
+      }
+    
+      .heads h3,
+      .heads p,
+      .info,
+      .info .icon,
+      .info p,
+      .info h4,
+      .new,
+      .new .icon,
+      .inf,
+      .inf .icon,
+      .inf h4,
+      .infm,
+      .infm .icon,
+      .infm h4,
+      .box3,
+      .word,
+      .shadow__btn,
+      .shadow__btn1 {
+        margin-left: 15%;
+      }
+
+      .head{
+        margin-left: 100px;
+
+      }
+      .head h3{
+        margin-left: -230px;
+      }
+
+      .image-container{
+         margin-left:45px ;
+     }
+
+      .head p{
+        max-width: 300px;
+      }
+
+      .heads p{
+        margin-left: 0;
+        font-size: 1.2rem;
+      }
+      .heads h3{
+        margin-left: -40px;
+        font-size: 1.8rem;
+      }
+      .new{
+        margin-top: -120px;
+       
+      }
+      .new .icon{
+        margin-left: 10px;
+      }
+      .inf{
+        margin-top: -100px;
+      }
+      .inf .icon{
+        margin-left: 10px;
+      }
+      .info .icon .fa-solid{
+        margin-left: 10px;
+      }
+      .infm{
+        margin-top: -100px;
+      }
+      .ground{
+        height: 1800px;
+      }
+      .pic{
+        margin-left: 130px;
+      }
+
+      .box3{
+        margin-left: 0;
+      }
+      .word{
+        margin-left: 6%;
+      }
+
+      .conte img {
+       display: none;
+      }
+
+      .shadow__btn,
+  .shadow__btn1,
+  .link,
+  .talk,
+  .shadow__btn2,
+  .all {
+    margin-left: 18%;
+  }
+  .shadow__btn,
+  .shadow__btn1{
+    margin-left: 150px;
+  }
+  
+
+  .shadow__btn {
+    margin-top: 20px;
+  }
+
+  .link {
+    margin-left: 32%;
+    margin-top: -180px;
+    margin-bottom: 130px;
+  }
+
+  .link h4{
+    margin-left: 5%;
+  }
+
+  .link h4,
+  .link ul li a {
+    font-size: 16px;
+  }
+
+  .talk {
+    margin-left: 15%;
+    margin-top: -120px;
+  }
+
+  .talk h4{
+    margin-left: 26%;
+  }
+
+  .shadow__btn2 {
+    width: 150px;
+  }
+  .all{
+  width:100%;
+  margin-left: 0;
+  }
+
+ 
+  #scrollToTopBtn {
+    display: none;
+}
+
+.contact-form{
+  margin-left: -70px;
+}
+
+}
+
+
+
+
+
+
+
+
+
